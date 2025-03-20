@@ -18,7 +18,7 @@ export default function Accordion() {
     else cpyMultiple.splice(findIndexOfCurrentId, 1);
     setMultiple(cpyMultiple);
   }
-  console.log(multiple, selected);
+  // console.log(multiple, selected);
   return (
     <div className="wrapper">
       <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>

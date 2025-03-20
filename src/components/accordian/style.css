@@ -1,0 +1,38 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+  display: flex;
+  height: 100hv;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button{
+  padding: 10px 20px;
+  background-color: #5b5858;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordion{
+  width: 700px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.item{
+  background-color: #5b5858;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
